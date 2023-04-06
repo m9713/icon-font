@@ -1,0 +1,31 @@
+/* 
+ * (c) Unicons
+ * Version 4.0.8
+ * https://iconscout.com/unicons
+*/
+
+.unicons {
+  display: inline-block;
+  vertical-align: middle;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: var(--Icon-Size);
+}
+
+.unicons::before {
+  content: "";
+  background-color: var(--Icon-Color);
+  display: block;
+  width: var(--Icon-Size);
+  height: var(--Icon-Size);
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
